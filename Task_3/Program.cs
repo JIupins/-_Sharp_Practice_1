@@ -1,11 +1,11 @@
 ﻿Console.Write("Введите число: ");
-int A = Convert.ToInt32(Console.ReadLine());
+int one = Convert.ToInt32(Console.ReadLine());
 
-if (Convert.ToBoolean(A%2)==false)
+if (Convert.ToBoolean(one % 2)==false)
 {
-    Console.WriteLine($"Число {A} четное.");
+    Console.WriteLine($"Число {one} четное.");
 }
 else
 {
-    Console.WriteLine($"Число {A} не четное.");
+    Console.WriteLine($"Число {one} не четное.");
 }
